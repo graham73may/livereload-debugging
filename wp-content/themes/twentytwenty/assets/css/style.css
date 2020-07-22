@@ -37,18 +37,18 @@
     MISC
     ===============================
 */
-.c-footer {
+#site-footer {
   background-color: red; }
-  .c-footer div:not(.u-container) {
+  #site-footer div:not(.u-container) {
     width: calc(33.33333% - 42.66667px);
     float: left;
     margin-left: 32px; }
     @media only screen and (max-width: 1017px) {
-      .c-footer div:not(.u-container) {
+      #site-footer div:not(.u-container) {
         background-color: green; } }
     @media only screen and (max-width: 767px) {
-      .c-footer div:not(.u-container) {
+      #site-footer div:not(.u-container) {
         background-color: blue; } }
 
-.c-header {
-  background-color: green; }
+#site-header {
+  background-color: red !important; }
