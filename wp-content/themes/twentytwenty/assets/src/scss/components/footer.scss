@@ -1,0 +1,15 @@
+.c-footer {
+  background-color : red;
+
+  div:not(.u-container) {
+    @include grid-column(4);
+
+    @include grid-media($tablet) {
+      background-color : green;
+    }
+
+    @include grid-media($mobile) {
+      background-color : blue;
+    }
+  }
+}

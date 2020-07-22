@@ -1,0 +1,31 @@
+// Baseline
+$baseline-spacing : 8px;
+
+// Grid settings
+$gutter : 32px;
+$grid-columns : 12;
+$max-width : 1280px;
+$outer-padding : $baseline-spacing * 2;
+
+$neat-grid : (
+		columns: $grid-columns,
+		gutter: $gutter,
+);
+
+$desktop : (
+		columns: 12,
+		gutter: $gutter,
+		media: 1018px,
+);
+
+$tablet : (
+		columns: 6,
+		gutter: $gutter,
+		media: 'only screen and (max-width: 1017px)',
+);
+
+$mobile : (
+		columns: 4,
+		gutter: $gutter,
+		media: 'only screen and (max-width: 767px)',
+);

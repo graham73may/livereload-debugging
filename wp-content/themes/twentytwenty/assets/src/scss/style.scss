@@ -1,0 +1,24 @@
+/*
+    Theme Name: Default Theme by Soapbox
+    Theme URI: http://www.soapbox.co.uk
+    Description: Default Theme by Soapbox
+    Author: Soapbox
+    Version: 1.0
+*/
+/*
+    ===============================
+    1. SETTINGS
+    ===============================
+*/
+@import "settings/variables";
+@import "settings/grid-settings";
+/*
+    ===============================
+    2. TOOLS
+    ===============================
+*/
+@import "tools/mixins";
+@import "tools/neat/neat";
+
+@import "components/footer";
+@import "components/header";

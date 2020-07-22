@@ -1,0 +1,42 @@
+#adminmenu div.wp-menu-name {
+  padding : 8px 8px 8px 0;
+}
+/* Datepicker fix */
+.ui-datepicker.ui-helper-clearfix {
+  display : none;
+}
+// Activity comments hide
+#latest-comments {
+  //display : none !important;
+}
+// Post type icon hide
+#dashboard_right_now li a:before, #dashboard_right_now li > span:before,
+#dashboard_right_now .post-count a:before, #dashboard_right_now .post-count span:before,
+#dashboard_right_now .page-count a:before, #dashboard_right_now .page-count span:before {
+  //content : '';
+}
+// Separator style
+#adminmenu li.wp-menu-separator {
+  border-top     : 1px solid rgba(240, 245, 250, 0.6);
+  height         : 0;
+  margin         : 6px 0;
+  padding-bottom : 26px;
+}
+#adminmenu > li.wp-not-current-submenu.wp-menu-separator {
+  &:after {
+	content : "Post types";
+  }
+}
+#adminmenu > li.wp-not-current-submenu.wp-menu-separator ~ li.wp-not-current-submenu.wp-menu-separator {
+  &:after {
+	content : "Media and Settings";
+  }
+}
+li.wp-not-current-submenu.wp-menu-separator {
+  &:after {
+	color   : #AAAAAA;
+	content : "Post types";
+	display : block;
+	margin  : 6px 0 10px 10px;
+  }
+}

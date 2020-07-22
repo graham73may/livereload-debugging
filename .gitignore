@@ -1,0 +1,230 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+### WordPress template
+*.log
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+
+
+### Dreamweaver template
+# DW Dreamweaver added files
+_notes
+dwsync.xml
+
+
+### NetBeans template
+nbproject/private/
+build/
+nbbuild/
+#dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+
+### LibreOffice template
+# LibreOffice locks
+.~lock.*#
+
+
+### Windows template
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+### MicrosoftOffice template
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea
+.idea/workspace.xml
+# if you remove the above rules, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+
+### SublimeText template
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+
+### Linux template
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+
+### OSX template
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Server
+.well-known
+.well-known/*
+error_log
+*/error_log
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+*composer.lock
+
+# ddev
+.ddev/db_snapshots*
+.ddev/import-db*
+.ddev/importdb*
+
+# Core
+!/wp-admin/**/vendor/**
+!/wp-admin/**/dist/**
+!/wp-includes/**/vendor/**
+!/wp-includes/**/dist/**
+
+# Plugins
+# - Don't exclude plugin vendor folders
+!/wp-content/plugins/**/dist
+!/wp-content/plugins/**/vendor
+!/wp-content/plugins/**/vendor/**
+!/wp-content/plugins/cloudflare/vendor/
+!/wp-content/plugins/cloudflare/composer.lock
+!/wp-content/plugins/types/vendor/
+
+# Configs
+#/wp-config-ddev.php
+/wp-config-local.php
+/wp-config-staging.php
+
+
+# Theme
+# ---------------------------------------------------------------------
+/wp-content/themes/**/dist
+/wp-content/themes/**/vendor
+/wp-content/themes/**/assets/src/node_modules/
+
+# DDEV database imports.
+/.ddev/importdb*
+
+# Git database files (commit sql scripts, don't commit database dumps)
+#/_db/
+
+# WP Cli on staging.
+/vendor
+/composer.lock

@@ -1,0 +1,147 @@
+/*
+    ===============================
+    VARIABLES
+    ===============================
+*/
+//@import 'settings/fontface';
+@import 'settings/grid-settings';
+@import 'settings/variables';
+/*
+    ===============================
+    MIXINS
+    ===============================
+*/
+@import 'tools/mixins';
+@import 'tools/text-styles';
+
+/*
+    ===============================
+    STRUCTURE
+    ===============================
+*/
+//Set a similar width to the single-content area
+html {
+  padding : 0 10px;
+}
+
+body {
+  max-width : 652px;
+  margin    : 10px auto;
+}
+
+// Img max width in editor
+img {
+  height    : auto;
+  max-width : 100%;
+}
+
+iframe {
+  width      : 100%;
+  height     : auto;
+  min-height : 400px;
+}
+
+/*
+    ===============================
+    TYPOGRAPHY
+    ===============================
+*/
+
+p + h1,
+ul + h1,
+ol + h1 {
+  margin-top : 55px;
+}
+
+h1 {
+  color         : $black;
+  font-size     : 30px;
+  font-weight   : 700;
+  line-height   : 40px;
+  margin-bottom : 10px;
+
+  b, strong {
+    font-weight : 400;
+  }
+}
+
+h2 {
+  color       : $black;
+  font-size   : 22px;
+  font-weight : 700;
+  line-height : 35px;
+
+  b, strong {
+    font-weight : 400;
+  }
+}
+
+h3 {
+  color          : $black;
+  font-size      : 19px;
+  font-weight    : 400;
+  letter-spacing : 0.5px;
+  line-height    : 25px;
+  text-transform : uppercase;
+
+  b, strong {
+    font-weight : 400;
+  }
+}
+
+h4, h5, h6 {
+  color          : $black;
+  font-size      : 19px;
+  font-weight    : 400;
+  line-height    : 30px;
+  text-transform : none;
+
+  b, strong {
+    font-weight : 400;
+  }
+}
+
+p, ul, ol {
+  @include ts-body;
+}
+
+a,
+p a,
+ol li a,
+ul li a {
+  color           : $black;
+  cursor          : pointer;
+  text-decoration : none;
+
+  &:hover {
+    text-decoration : underline;
+  }
+}
+
+b, strong {
+  font-weight : 700;
+}
+
+i, em {
+  font-style : italic;
+}
+
+b i, b em, strong i, strong em,
+i b, i strong, em b, em strong {
+  font-weight : 700;
+  font-style  : italic;
+}
+
+figcaption {
+  font-size   : 12px;
+  font-style  : normal;
+  line-height : 15px;
+}
+
+blockquote, blockquote p {
+  font-size    : 26px;
+  font-weight  : 700;
+  line-height  : 35px;
+  margin-left  : 0;
+  margin-right : 0;
+}
