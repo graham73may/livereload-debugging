@@ -19,7 +19,9 @@ const autoprefixerCompatibility = [
 ];
 
 // Livereload over SSL
-const livereloadSettings = {};
+const livereloadSettings = {
+    quiet: false
+};
 
 // Added to arguments list:
 // --sslKey="path_to_key" --sslCert="path_to_crt"
@@ -62,7 +64,7 @@ function css(file) {
 }
 
 // Build the theme CSS file
-gulp.task('build-css', gulp.series(() => css('scss/style.scss')));
+gulp.task('build-css', gulp.series(() => css('scss/styles.scss')));
 
 // Build the admin CSS file
 gulp.task('build-admin-css', gulp.series(() => css('scss/admin-style.scss')));
