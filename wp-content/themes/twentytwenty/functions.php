@@ -214,6 +214,8 @@ function twentytwenty_register_scripts() {
   wp_enqueue_script('twentytwenty-js', get_template_directory_uri() . '/assets/js/index.js', [], $theme_version, FALSE);
   wp_script_add_data('twentytwenty-js', 'async', TRUE);
 
+  // wp_enqueue_script('lr-js', 'https://cdn.jsdelivr.net/npm/livereload-js@3.2.4/dist/livereload.min.js?host=localhost',[],1, true);
+  wp_enqueue_script('lr-js', get_template_directory_uri() . '/assets/js/livereload.js', [], $theme_version, true);
 }
 
 add_action('wp_enqueue_scripts', 'twentytwenty_register_scripts');

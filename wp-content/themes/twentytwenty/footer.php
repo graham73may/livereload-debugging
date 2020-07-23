@@ -55,6 +55,15 @@
 
 			</footer><!-- #site-footer -->
 
+<script>
+	var LiveReloadOptions = {   
+		host: 'localhost',
+		reloadMissingCSS: 'true'
+	}
+</script>
+
+
+
 		<?php wp_footer(); ?>
 
 	</body>
