@@ -34,7 +34,7 @@ var livereloadSettings = {};
 // File paths to various assets are defined here.
 var PATHS = {
     sass: [
-        'scss/styless.scss',
+        'scss/style.scss',
     ],
     admin_sass: [
         'scss/admin-style.scss',
